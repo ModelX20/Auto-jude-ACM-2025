@@ -12,16 +12,16 @@ AutoJudge is a Machine Learning–based web application that predicts the **diff
 - Clean and interactive **Streamlit** web interface
 - End-to-end ML workflow (training → prediction → UI)
 
-## 🔬 Model Experimentation
+##  Model Experimentation
 
-Multiple machine learning models were evaluated during development, including:
+Tried using multiple machine learning models during development, including:
 
 - Support Vector Classifier (SVC)
 - Gradient Boosting
 - Random Forest
 
-Although SVC and Gradient Boosting models were tested with different hyperparameters, they did not outperform the Random Forest model on the given dataset.
-Based on empirical evaluation and validation accuracy, **Random Forest** was selected for both classification and regression tasks, as it provided more stable and consistent results.
+Tried to implement SVC and Gradient Boosting models with different hyperparameters, but they failed to outperform the Random Forest model on the given dataset.
+Based on empirical evaluation and validation accuracy, I selected **Random Forest** for both classification and regression tasks, as it provided more stable and consistent results.
 
 
 
@@ -38,7 +38,7 @@ GitHub does not allow uploading files larger than **25 MB**, and the regression 
 
 ---
 
-## ▶️ How to Run the Project (Evaluator Instructions)
+##  How to Run the Project (Evaluator Instructions)
 
 STEP 1: Clone or Download the Repository 
 ```bash
