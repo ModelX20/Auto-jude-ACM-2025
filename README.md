@@ -12,7 +12,19 @@ AutoJudge is a Machine Learning–based web application that predicts the **diff
 - Clean and interactive **Streamlit** web interface
 - End-to-end ML workflow (training → prediction → UI)
 
----
+## 🔬 Model Experimentation
+
+Multiple machine learning models were evaluated during development, including:
+
+- Support Vector Classifier (SVC)
+- Gradient Boosting
+- Random Forest
+
+Although SVC and Gradient Boosting models were tested with different hyperparameters, they did not outperform the Random Forest model on the given dataset.
+Based on empirical evaluation and validation accuracy, **Random Forest** was selected for both classification and regression tasks, as it provided more stable and consistent results.
+
+
+
 
 ##  Project Structure
 ##  Important Note About Model Files
@@ -33,12 +45,12 @@ STEP 1: Clone or Download the Repository
 git clone <YOUR_GITHUB_REPO_LINK>
 cd AutoJudge
 
-Step 2: Install Dependencies
+STEP 2: Install Dependencies
 pip install -r requirements.txt
 
 STEP 3 :Add the Regression Model
 Place the file difficulty_regressor.pkl in the same folder as app.py.
-link for difficulty_regressor.pkl - 
+link for difficulty_regressor.pkl - https://drive.google.com/file/d/1kg9D1u_b25sYiAoubV6OBUOZQF6ydJlJ/view?usp=sharing
 
 STEP 4 : Run the application
 streamlit run app.py
