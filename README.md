@@ -42,7 +42,7 @@ GitHub does not allow uploading files larger than **25 MB**, and the regression 
 
 
 
-STEP 1 : Download the repository
+### STEP 1 : Download the repository
 ```bash
 git clone <YOUR_GITHUB_REPO_LINK>
 cd AutoJudge
