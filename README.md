@@ -43,18 +43,18 @@ GitHub does not allow uploading files larger than **25 MB**, and the regression 
 
 
 ### STEP 1 : Download the repository
-```bash
+
 git clone <YOUR_GITHUB_REPO_LINK>
 cd AutoJudge
 
-STEP 2: Install Dependencies
+### STEP 2: Install Dependencies
 pip install -r requirements.txt
 
-STEP 3 :Add the Regression Model
+### STEP 3 :Add the Regression Model
 Place the file difficulty_regressor.pkl in the same folder as app.py.
 link for difficulty_regressor.pkl - https://drive.google.com/file/d/1kg9D1u_b25sYiAoubV6OBUOZQF6ydJlJ/view?usp=sharing
 
-STEP 4 : Run the application
+### STEP 4 : Run the application
 streamlit run app.py
 
 
