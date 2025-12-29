@@ -54,7 +54,7 @@ pip install -r requirements.txt
 Place the file difficulty_regressor.pkl in the same folder as app.py.
 link for difficulty_regressor.pkl - https://drive.google.com/file/d/1kg9D1u_b25sYiAoubV6OBUOZQF6ydJlJ/view?usp=sharing
 
-### STEP 4 : Run the application
+### STEP 4 : Run the command in terminal
 streamlit run app.py
 
 
